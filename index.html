@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/90b164a378.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/aria.modal.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="wrapper">
+        <div class="logo">
+          <i class="fa-solid fa-code-pull-request"></i>
+          <span class="logo-text">First Lastname</span>
+        </div>
+        <a href="#contactSection" role="button" class="btn primary">contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero wrapper">
+        <h1>Portfolio headline</h1>
+        <p class="intro">
+          Roof party tacos farm-to-table big mood, unicorn ascot pour-over.
+          Whatever cloud bread viral, four dollar toast leggings activated
+          charcoal hammock subway tile poke hoodie glossier marfa yuccie.
+        </p>
+      </section>
+      <section class="work">
+        <div id="item1" class="portfolio-item">
+          <img
+            src="http://place-hold.it/500x500?text=Image1"
+            class="responsive"
+            alt=""
+          />
+
+          <div
+            class="title wrapper"
+            title="see details for item1"
+            role="button"
+            data-modal-open="modal_1"
+          >
+            <h2>Item 1</h2>
+            <i class="fa fa-caret-down"></i>
+          </div>
+
+          <div class="details">
+            <h3>Project Summary:</h3>
+            <p>
+              Chambray big mood tattooed, twee synth gochujang air plant
+              sustainable cray marfa butcher fingerstache. Kogi chia poke,
+              semiotics vice taxidermy meggings hella bespoke glossier drinking
+              vinegar kickstarter meditation microdosing. Shaman crucifix ascot
+              pitchfork pour-over, retro bushwick glossier lumbersexual affogato
+              wolf next level pug umami. Freegan selfies austin prism, heirloom
+              retro man bun blue bottle pop-up succulents 8-bit fanny pack.
+              Venmo drinking vinegar food truck chicharrones bruh fingerstache
+              +1 disrupt whatever dreamcatcher.
+            </p>
+
+            <div class="list-wrapper">
+              <h4>Tech Used:</h4>
+              <p>
+                Adobe Illustrator, HTML, CSS, VS Code, Eloqua Oracle ESP
+                software
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="item2" class="portfolio-item">
+          <img
+            src="http://place-hold.it/500x500?text=Image2"
+            class="responsive"
+            alt=""
+          />
+          <div
+            class="title wrapper"
+            title="see details for item2"
+            role="button"
+            data-modal-open="modal_1"
+          >
+            <h2>Item 2</h2>
+            <i class="fa fa-caret-down"></i>
+          </div>
+          <div class="details">
+            <h3>Project Summary:</h3>
+            <p>
+              Kogi chia poke, semiotics vice taxidermy meggings hella bespoke
+              glossier drinking vinegar kickstarter meditation microdosing.
+              Shaman crucifix ascot pitchfork pour-over, retro bushwick glossier
+              lumbersexual affogato wolf next level pug umami. Freegan selfies
+              austin prism, heirloom retro man bun blue bottle pop-up succulents
+              8-bit fanny pack. Venmo drinking vinegar food truck chicharrones
+              bruh fingerstache +1 disrupt whatever dreamcatcher.
+            </p>
+
+            <div class="list-wrapper">
+              <h4>Tech Used:</h4>
+              <p>
+                Adobe Illustrator, HTML, CSS, VS Code, Eloqua Oracle ESP
+                software
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="item3" class="portfolio-item">
+          <img
+            src="http://place-hold.it/500x500?text=Image3"
+            class="responsive"
+            alt=""
+          />
+          <div
+            class="title wrapper"
+            title="see details for item3"
+            role="button"
+            data-modal-open="modal_1"
+          >
+            <h2>Item 3</h2>
+            <i class="fa fa-caret-down"></i>
+          </div>
+          <div class="details">
+            <h3>Project Summary:</h3>
+            <p>
+              Shaman crucifix ascot pitchfork pour-over, retro bushwick glossier
+              lumbersexual affogato wolf next level pug umami. Freegan selfies
+              austin prism, heirloom retro man bun blue bottle pop-up succulents
+              8-bit fanny pack. Venmo drinking vinegar food truck chicharrones
+              bruh fingerstache +1 disrupt whatever dreamcatcher.
+            </p>
+            <div class="list-wrapper">
+              <h4>Tech Used:</h4>
+              <p>
+                Adobe Illustrator, HTML, CSS, VS Code, Eloqua Oracle ESP
+                software
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contactSection" class="contact">
+        <form id="content" class="wrapper" autocomplete="on">
+          <h2>Contact Form</h2>
+          <label for="name">Your name</label>
+          <input type="text" id="name" title="name" name="name" required />
+          <label for="email">Your email</label>
+          <input type="text" id="email" title="email" name="email" required />
+          <label for="message">Type your message here</label>
+          <textarea
+            id="message"
+            title="message"
+            name="message"
+            rows="8"
+            required
+          ></textarea>
+          <button type="submit" id="send" class="btn primary" name="send">
+            Send
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <div class="logo">
+          <i class="fa-solid fa-code-pull-request"></i>
+          <span class="logo-text">First Lastname</span>
+        </div>
+        <span class="btn tertiary">Social Media</span>
+        <div class="social">
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            class="info"
+            title="link to Facebook"
+          >
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            class="info"
+            title="link to LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            class="info"
+            title="link to Instagram"
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            class="info"
+            title="link to Twitter"
+          >
+            <i class="fa-brands fa-square-twitter"></i>
+          </a>
+        </div>
+      </nav>
+    </footer>
+
+    <!-- dialog markup for 1024w -->
+    <div id="modal_1" data-modal>
+      <div id="modalInner" data-modal-document class="modal-content2"></div>
+    </div>
+    <!-- end dialog markup -->
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script src="https://cdn.rawgit.com/GoogleChrome/inert-polyfill/v0.1.0/inert-polyfill.min.js"></script>
+    <script src="assets/js/aria.modal.min.js"></script>
+  </body>
+</html>
