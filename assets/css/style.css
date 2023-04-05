@@ -482,7 +482,7 @@ nav .logo .logo-text {
   content: "";
   z-index: 2;
   grid-area: 1 / 1 / 2 / 2;
-  background-image: url(https://ninjulia.github.io/showcase/assets/images/dries-augustyns-WzKPT0IuUrU-unsplash.jpg);
+  background-image: url(../images/dries-augustyns-WzKPT0IuUrU-unsplash.jpg);
   filter: blur(var(--unit_25));
   opacity: 0.5;
   background-size: cover;

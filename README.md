@@ -3,7 +3,7 @@
 This project is an exercise to create a simple 1-page portfolio site. The project was in 3 parts: design, coding and implementation.
 
 **Design**
-The design features a hero section, space for portfolio pieces in multiples of 3 and a contact section. The image for the contact section was sourced from unsplash [Dries Augustyns https://unsplash.com/photos/WzKPT0IuUrU](Dries Augustyns https://unsplash.com/photos/WzKPT0IuUrU). Icons are from the  fontawesome library and fonts are via Google Fonts. Portfolio details are handled via acordion sliders on small screens and modals on larger screen sizes. Figma was used to create the design and establish colors, fonts, spacing, and other design themes.  
+The design features a hero section, space for portfolio pieces in multiples of 3 and a contact section. The image for the contact section was sourced from unsplash [Dries Augustyns https://unsplash.com/photos/WzKPT0IuUrU](Dries Augustyns https://unsplash.com/photos/WzKPT0IuUrU). Icons are from the fontawesome library and fonts are via Google Fonts. Portfolio details are handled via acordion sliders on small screens and modals on larger screen sizes. Figma was used to create the design and establish colors, fonts, spacing, and other design themes.
 
 **Code**
 The design was coded in VS Code with HTML, CSS, and Javascript. I first established design themeing and built the files with a mobile-first approach and made sure to incorporate accessibility techniques. To keep the modals a11y compliant, I leveraged Scott O'Harra's [Accessible Modal Dialog](https://github.com/scottaohara/accessible_modal_window).
@@ -34,20 +34,20 @@ Create a layout using HTML, CSS and JS. Additionally:
 - Project Plan & Wireframe
 - Use Git & Github for vs control
 - Projects include photo, summary and tech used
-- Contact section includes feilds for name, email and message
+- Contact section includes fields for name, email and message
 - Include links to social
 - Page must be responsive!
 - Optimize for accessability
 
 ### Screenshot
 
-[screenshot.png](https://github.com/ninjulia/showcase/screenshot.png)
+![screenshot](./screenshot.PNG?raw=true)
 
 ### Links
 
 - Figma Design File: [https://www.figma.com/file/jaamwUHr04KaydfF7vpe3A/Showcase?node-id=0%3A1](https://www.figma.com/file/jaamwUHr04KaydfF7vpe3A/Showcase?node-id=0%3A1)
-- Solution URL: [https://github.com/ninjulia/showcase](https://github.com/ninjulia/showcase)
-- Live Site URL: [https://ninjulia.github.io/showcase](https://ninjulia.github.io/showcase/)
+- Solution URL: [https://github.com/ninjulia/CODECADEMY_Showcase/](https://github.com/ninjulia/CODECADEMY_Showcase/)
+- Live Site URL: [https://ninjulia.github.io/CODECADEMY_Showcase/](https://ninjulia.github.io/CODECADEMY_Showcase/)
 
 ## My process
 
@@ -59,7 +59,7 @@ Create a layout using HTML, CSS and JS. Additionally:
 - CSS Grid
 - Flexbox
 - Mobile-first workflow
-- Accessability / Color Contrast 
+- Accessability / Color Contrast
 
 ### What I learned
 
@@ -74,9 +74,10 @@ My implementation of the modal is a bit more kludgy than I would like. Given mor
 - Website - [Julia](https://www.becausejulia.com)
 
 ## Acknowledgments
+
 Below is a list of assets and articles that I leveraged in the production of this project:
 
-- [The A11Y Project Checklist](https://www.a11yproject.com/checklist/)  
+- [The A11Y Project Checklist](https://www.a11yproject.com/checklist/)
 - [A CSS Approach to Trap Focus Inside of an Element](https://css-tricks.com/a-css-approach-to-trap-focus-inside-of-an-element/)
 - [Accessible Modal Dialog](https://scottaohara.github.io/accessible_modal_window/)
 - [https://fontawesome.com/](https://fontawesome.com)
