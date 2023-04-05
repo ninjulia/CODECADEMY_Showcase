@@ -41,7 +41,7 @@ Create a layout using HTML, CSS and JS. Additionally:
 
 ### Screenshot
 
-![screenshot](./screenshot.PNG?raw=true)
+![screenshot](./screenshot.png?raw=true)
 
 ### Links
 
