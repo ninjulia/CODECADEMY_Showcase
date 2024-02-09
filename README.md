@@ -3,7 +3,7 @@
 This project is an exercise to create a simple 1-page portfolio site. The project was in 3 parts: design, coding and implementation.
 
 **Design**
-The design features a hero section, space for portfolio pieces in multiples of 3 and a contact section. The image for the contact section was sourced from unsplash [Dries Augustyns https://unsplash.com/photos/WzKPT0IuUrU](Dries Augustyns https://unsplash.com/photos/WzKPT0IuUrU). Icons are from the fontawesome library and fonts are via Google Fonts. Portfolio details are handled via acordion sliders on small screens and modals on larger screen sizes. Figma was used to create the design and establish colors, fonts, spacing, and other design themes.
+The design features a hero section, space for portfolio pieces in multiples of 3 and a contact section. The image for the contact section was sourced from unsplash [Dries Augustyns](https://unsplash.com/photos/WzKPT0IuUrU). Icons are from the fontawesome library and fonts are via Google Fonts. Portfolio details are handled via acordion sliders on small screens and modals on larger screen sizes. Figma was used to create the design and establish colors, fonts, spacing, and other design themes.
 
 **Code**
 The design was coded in VS Code with HTML, CSS, and Javascript. I first established design themeing and built the files with a mobile-first approach and made sure to incorporate accessibility techniques. To keep the modals a11y compliant, I leveraged Scott O'Harra's [Accessible Modal Dialog](https://github.com/scottaohara/accessible_modal_window).
